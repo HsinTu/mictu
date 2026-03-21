@@ -6,11 +6,13 @@ import matter from 'gray-matter';
 export default function Home() {
   // --- 核心邏輯：從 content 資料夾抓取真正文章 ---
   const contentDirectory = path.join(process.cwd(), 'content');
-  
+  const filenames = fs.readdirSync(contentDirectory);
+
   // 檢查資料夾是否存在，避免報錯
   let articles = [];
   if (fs.existsSync(contentDirectory)) {
     const filenames = fs.readdirSync(contentDirectory);
+    console.log("找到的檔案有：", filenames); // <--- 加入這一行
     articles = filenames
       .filter(fn => fn.endsWith('.md')) // 只讀取 .md 檔
       .map((filename) => {
