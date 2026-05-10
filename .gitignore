@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# commercial fonts
+/public/fonts/
+
+# ai assistant workflow files
+CLAUDE.md
+AGENTS.md
+
+# python cache
+scripts/__pycache__/
+*.pyc

@@ -1,0 +1,726 @@
+{
+  "chapters": [
+    {
+      "slug": "preface",
+      "title": "序",
+      "videoId": null,
+      "sections": [],
+      "standalone": true
+    },
+    {
+      "slug": "chapter-1",
+      "title": "Chapter 1. Spreadsheets 101",
+      "videoId": null,
+      "sections": [
+        {
+          "slug": "1-1",
+          "title": "1.1 建立副本",
+          "videoId": null,
+          "order": 1
+        },
+        {
+          "slug": "1-2",
+          "title": "1.2 資料型態簡介",
+          "videoId": null,
+          "order": 2
+        },
+        {
+          "slug": "1-3",
+          "title": "1.3 公式簡介",
+          "videoId": null,
+          "order": 3
+        },
+        {
+          "slug": "1-4",
+          "title": "1.4 資料透視表簡介",
+          "videoId": null,
+          "order": 4
+        },
+        {
+          "slug": "1-5",
+          "title": "1.5 圖表繪製簡介",
+          "videoId": null,
+          "order": 5
+        },
+        {
+          "slug": "1-6",
+          "title": "1.6 Excel 與 Google Sheets 比較",
+          "videoId": null,
+          "order": 6
+        }
+      ],
+      "desc": "本章將實作一個簡單的例題，用最快的速度熟悉試算表 (Spreadsheets) 的基本操作技巧，打開範例檔案一起操作吧！",
+      "exampleUrl": "https://docs.google.com/spreadsheets/d/14qjwHiD1cl2ZFZnMoVJ46fXglEh7OTcDo8iVRe2XBZM/edit#gid=0",
+      "exampleTitle": "Chapter 1. Spreadsheets 101",
+      "doneUrl": "https://docs.google.com/spreadsheets/d/1ZyaOsI10y7MiQEs4ZGpoKfJEe2MalA20AJoFtjUe29I/edit#gid=0",
+      "doneTitle": "Chapter 1. Spreadsheets 101 完成版"
+    },
+    {
+      "slug": "chapter-2",
+      "title": "Chapter 2. 儲存格基本操作與格式設定",
+      "videoId": null,
+      "sections": [
+        {
+          "slug": "2-1",
+          "title": "2.1 基本欄列操作",
+          "videoId": null,
+          "order": 1
+        },
+        {
+          "slug": "2-2",
+          "title": "2.2 定義已命名範圍",
+          "videoId": null,
+          "order": 2
+        },
+        {
+          "slug": "2-3",
+          "title": "2.3 儲存格外觀的基本設定",
+          "videoId": null,
+          "order": 3
+        },
+        {
+          "slug": "2-4",
+          "title": "2.4 條件式格式設定",
+          "videoId": null,
+          "order": 4
+        },
+        {
+          "slug": "2-5",
+          "title": "2.5 數值格式設定與資料型態",
+          "videoId": null,
+          "order": 6
+        },
+        {
+          "slug": "2-6",
+          "title": "2.6 資料驗證",
+          "videoId": null,
+          "order": 7
+        },
+        {
+          "slug": "2-7",
+          "title": "2.7 快捷鍵",
+          "videoId": null,
+          "order": 8
+        },
+        {
+          "slug": "2-appendix",
+          "title": "Appendix 2. Excel 儲存格基本操作與格式設定",
+          "videoId": null,
+          "order": 9
+        }
+      ],
+      "desc": "本章將介紹如何儲存格之相關操作，包括基本的欄列操作、格式設定、資料驗證等，並在最後一節介紹一些重要的快捷鍵，以提升工作效率。",
+      "exampleUrl": "https://docs.google.com/spreadsheets/d/1lFTdnyx6ZKSLOUChuwcHEaGymC_sRKL8sWBcqWfbOT4/edit",
+      "exampleTitle": "Chapter 2. 儲存格基本操作與格式設定",
+      "doneUrl": "https://docs.google.com/spreadsheets/d/1ltFDPttG8yVtjEXUIs_Bao6Zml7EWIwxHp4vUC8NRCU/edit?usp=drive_link",
+      "doneTitle": "Chapter 2. 儲存格基本操作與格式設定 完成版"
+    },
+    {
+      "slug": "chapter-3",
+      "title": "Chapter 3. 資料整理與工作表設定",
+      "videoId": null,
+      "sections": [
+        {
+          "slug": "3-1",
+          "title": "3.1 匯入資料",
+          "videoId": null,
+          "order": 1
+        },
+        {
+          "slug": "3-2",
+          "title": "3.2 匯出資料",
+          "videoId": null,
+          "order": 2
+        },
+        {
+          "slug": "3-3",
+          "title": "3.3 尋找與取代",
+          "videoId": null,
+          "order": 3
+        },
+        {
+          "slug": "3-4",
+          "title": "3.4 資料篩選與排序",
+          "videoId": null,
+          "order": 4
+        },
+        {
+          "slug": "3-5",
+          "title": "3.5 資料清除",
+          "videoId": null,
+          "order": 5
+        },
+        {
+          "slug": "3-6",
+          "title": "3.6 工作表格式設定",
+          "videoId": null,
+          "order": 6
+        },
+        {
+          "slug": "3-7",
+          "title": "3.7 開啟檔案共用權限",
+          "videoId": null,
+          "order": 7
+        },
+        {
+          "slug": "3-8",
+          "title": "3.8 版本記錄與編輯記錄",
+          "videoId": null,
+          "order": 8
+        },
+        {
+          "slug": "3-9",
+          "title": "3.9 插入備註與註解",
+          "videoId": null,
+          "order": 9
+        },
+        {
+          "slug": "3-appendix",
+          "title": "Appendix 3. Excel 資料整理與工作表設定",
+          "videoId": null,
+          "order": 10
+        }
+      ],
+      "desc": "一個完整的資料分析流程應該包括資料匯入、處理、匯出三個部分，於本章前兩節將介紹如何匯入與匯出資料，第 3~5 節介紹 Google Sheets 中內建的資料處理工具，後四節再介紹 Google Sheets 中協作相關的功能，提升多人共用檔案時的效率與安全性。",
+      "exampleUrl": "https://docs.google.com/spreadsheets/d/18J2S8zeic7MUq9AV54d7ABVN8x6xP6Ysv8saW03u1xM/edit",
+      "exampleTitle": "Chapter 3. 資料整理與工作表設定",
+      "doneUrl": "https://docs.google.com/spreadsheets/d/1SXu4sjO7HMQmhSEpfopF1qHwAwJ4ZMChg06BMO4Y-gw/edit",
+      "doneTitle": "Chapter 3. 資料整理與工作表設定 完成版"
+    },
+    {
+      "slug": "chapter-4",
+      "title": "Chapter 4. 資料透視表",
+      "videoId": null,
+      "sections": [
+        {
+          "slug": "4-1",
+          "title": "4.1 資料透視表分析流程",
+          "videoId": null,
+          "order": 1
+        },
+        {
+          "slug": "4-2",
+          "title": "4.2 資料透視表分析方式 — 基本篇",
+          "videoId": null,
+          "order": 2
+        },
+        {
+          "slug": "4-3",
+          "title": "4.3 資料透視表分析方式 — 進階篇",
+          "videoId": null,
+          "order": 3
+        },
+        {
+          "slug": "4-4",
+          "title": "4.4 篩選器控制項",
+          "videoId": null,
+          "order": 4
+        },
+        {
+          "slug": "4-5",
+          "title": "4.5 使用 GETPIVOTDATA 取得資料透視表之分析結果",
+          "videoId": null,
+          "order": 5
+        },
+        {
+          "slug": "4-appendix",
+          "title": "Appendix 4. Excel 資料透視表",
+          "videoId": null,
+          "order": 6
+        }
+      ],
+      "exampleUrl": "https://docs.google.com/spreadsheets/d/1eYQolpFf0qx4tqcOWsQg5q7Wk9er0SZ-ow7ZSIXH3Og/edit",
+      "exampleTitle": "Chapter 4. 資料透視表",
+      "desc": "資料透視表 (即 Excel 的樞紐分析表) 是 Excel / Google Sheets 十分常見且實用的功能，本章將使用 Kaggle 中的資料，介紹如何從零開始完成一張資料透視表，並透過一些範例讓大家熟悉資料透視表的使用，最後再介紹兩個與資料透視表相輔相成的工具 — 篩選器控制項及 GETPIVOTDATA 函數。",
+      "doneUrl": "https://docs.google.com/spreadsheets/d/1lV4DMXn97tdjv5of3gvOPecsVwOHEF3F67whoWaZfCc/edit",
+      "doneTitle": "Chapter 4. 資料透視表 完成版"
+    },
+    {
+      "slug": "chapter-5",
+      "title": "Chapter 5. 資料視覺化",
+      "videoId": null,
+      "sections": [
+        {
+          "slug": "5-1",
+          "title": "5.1 資料視覺化的目的與流程",
+          "videoId": null,
+          "order": 1
+        },
+        {
+          "slug": "5-2",
+          "title": "5.2 圖表繪製 — 以資料透視表為資料範圍",
+          "videoId": null,
+          "order": 2
+        },
+        {
+          "slug": "5-3",
+          "title": "5.3 圖表繪製 — 以原始資料為資料範圍",
+          "videoId": null,
+          "order": 3
+        },
+        {
+          "slug": "5-4",
+          "title": "5.4 使用 SPARKLINE 在儲存格中繪製圖表",
+          "videoId": null,
+          "order": 4
+        },
+        {
+          "slug": "5-appendix",
+          "title": "Appendix 5. Excel 資料視覺化",
+          "videoId": null,
+          "order": 5
+        }
+      ],
+      "desc": "本章將先介紹資料視覺化的目的與流程，再透過多個範例說明如何用 Google Sheets 繪製圖表及調整各項細節，最後一節介紹在單一儲存格繪製圖表的函式 — SPARKLINE。",
+      "exampleUrl": "https://docs.google.com/spreadsheets/d/1fMpzVOJ-4xAaY2XZ7cCJw2V_afrNBsKE2KsOLEIZzMM/edit#gid=0",
+      "exampleTitle": "Chapter 5. 資料視覺化",
+      "doneUrl": "https://docs.google.com/spreadsheets/d/1GmI2jcIkcISmxjY1YQwjmW-5liTPnUsMG9pJBHpfUwA/edit#gid=0",
+      "doneTitle": "Chapter 5. 資料視覺化 完成版"
+    },
+    {
+      "slug": "chapter-6",
+      "title": "Chapter 6. 函式 (一)：邏輯與運算",
+      "videoId": null,
+      "sections": [
+        {
+          "slug": "6-1",
+          "title": "6.1 運算符號、布林值與參照",
+          "videoId": null,
+          "order": 1
+        },
+        {
+          "slug": "6-2",
+          "title": "6.2 資料錯誤的型態",
+          "videoId": null,
+          "order": 2
+        },
+        {
+          "slug": "6-3",
+          "title": "6.3 邏輯運算子",
+          "videoId": null,
+          "order": 3
+        },
+        {
+          "slug": "6-4",
+          "title": "6.4 條件判斷",
+          "videoId": null,
+          "order": 4
+        },
+        {
+          "slug": "6-5",
+          "title": "6.5 統計值與資料大小排序",
+          "videoId": null,
+          "order": 5
+        },
+        {
+          "slug": "6-6",
+          "title": "6.6 包含條件的統計值",
+          "videoId": null,
+          "order": 6
+        },
+        {
+          "slug": "6-7",
+          "title": "6.7 計算加權平均與加總",
+          "videoId": null,
+          "order": 7
+        },
+        {
+          "slug": "6-8",
+          "title": "6.8 進階應用",
+          "videoId": null,
+          "order": 8
+        },
+        {
+          "slug": "6-appendix",
+          "title": "Appendix 6. Excel 函式 (一)：邏輯與運算",
+          "videoId": null,
+          "order": 9
+        }
+      ],
+      "exampleUrl": "https://docs.google.com/spreadsheets/d/126YKJj6SchucO8zYFxqCJ_XSoDeQ4CaG7vkotTw3bLE/edit",
+      "exampleTitle": "Chapter 6. 函式 (一)：邏輯與運算",
+      "desc": "本章先從公式的基本觀念開始說起，再介紹邏輯運算子、條件判斷、統計值相關的函式，最後一節則使用較複雜的進階應用的範例讓同學了解實務中如何操作，但因為篇幅較長而不以文字說明之，有興趣的同學可以參考教學影片一起操作。",
+      "doneUrl": "https://docs.google.com/spreadsheets/d/1G-jXFkOpphYGj9h036rlKfoBhGpgbOOv9S0Hj48tyW4/edit",
+      "doneTitle": "Chapter 6. 函式 (一)：邏輯與運算 完成版"
+    },
+    {
+      "slug": "chapter-7",
+      "title": "Chapter 7. 函式 (二)：查詢與篩選",
+      "videoId": null,
+      "sections": [
+        {
+          "slug": "7-1",
+          "title": "7.1 查詢函式：儲存格位置",
+          "videoId": null,
+          "order": 1
+        },
+        {
+          "slug": "7-2",
+          "title": "7.2 查詢函式：INDEX / MATCH",
+          "videoId": null,
+          "order": 2
+        },
+        {
+          "slug": "7-3",
+          "title": "7.3 查詢函式：-LOOKUP",
+          "videoId": null,
+          "order": 3
+        },
+        {
+          "slug": "7-4",
+          "title": "7.4 查詢函式：XMATCH / XLOOKUP",
+          "videoId": null,
+          "order": 4
+        },
+        {
+          "slug": "7-5",
+          "title": "7.5 查詢函式：OFFSET",
+          "videoId": null,
+          "order": 5
+        },
+        {
+          "slug": "7-6",
+          "title": "7.6 篩選函式：UNIQUE / SORT / SORTN",
+          "videoId": null,
+          "order": 6
+        },
+        {
+          "slug": "7-7",
+          "title": "7.7 篩選函式：FILTER",
+          "videoId": null,
+          "order": 7
+        },
+        {
+          "slug": "7-8",
+          "title": "7.8 進階應用",
+          "videoId": null,
+          "order": 8
+        },
+        {
+          "slug": "7-appendix",
+          "title": "Appendix 7. Excel 函式 (二)：查詢與篩選",
+          "videoId": null,
+          "order": 9
+        }
+      ],
+      "exampleUrl": "https://docs.google.com/spreadsheets/d/1k-S_eoK-qi1l61wIi5ranPXf-deMYC7-j1b4XrOIZ6c/edit",
+      "exampleTitle": "Chapter 7. 函式 (二)：查詢與篩選",
+      "desc": "本章前五節將介紹查詢相關的函式，包括最常聽到的 VLOOKUP、INDEX + MATCH 等，後兩節介紹功能類似篩選器的函數，最後一節再使用兩個進階應用來總結本章所有的公式，本章的函式都非常實用且重要，熟悉後可以有效率的解決工作中大部分的問題。",
+      "doneUrl": "https://docs.google.com/spreadsheets/d/17rGIP-HtPAn-OkT1z2G8NF94n0LWp85wV55s6bGyl-o/edit",
+      "doneTitle": "Chapter 7. 函式 (二)：查詢與篩選 完成版"
+    },
+    {
+      "slug": "chapter-8",
+      "title": "Chapter 8. 函式 (三)：日期與時間",
+      "videoId": null,
+      "sections": [
+        {
+          "slug": "8-1",
+          "title": "8.1 建立日期與時間",
+          "videoId": null,
+          "order": 1
+        },
+        {
+          "slug": "8-2",
+          "title": "8.2 取得日期與時間",
+          "videoId": null,
+          "order": 2
+        },
+        {
+          "slug": "8-3",
+          "title": "8.3 日期與時間運算",
+          "videoId": null,
+          "order": 3
+        },
+        {
+          "slug": "8-4",
+          "title": "8.4 進階應用",
+          "videoId": null,
+          "order": 4
+        }
+      ],
+      "exampleUrl": "https://docs.google.com/spreadsheets/d/1Mq_KOILZmfD3wufoexmYNfn-PUDUFNFEe8MaVjOPDXs/edit",
+      "exampleTitle": "Chapter 8. 函式 (三)：日期與時間",
+      "desc": "本章將介紹與日期、時間相關的函式，相較於前面兩章有較多複雜的函式，本章的函式相對直觀不少。學完此章節的內容後，就可以靈活在公式中運算日期，在處理會計分錄、每日銷售等資料都非常實用。",
+      "doneUrl": "https://docs.google.com/spreadsheets/d/1Ra2WR_AreeEUqxlvyWIigJ6euOpJl4WaVJEi-H1qBa4/edit",
+      "doneTitle": "Chapter 8. 函式 (三)：日期與時間 完成版"
+    },
+    {
+      "slug": "chapter-9",
+      "title": "Chapter 9. 函式 (四)：字串處理",
+      "videoId": null,
+      "sections": [
+        {
+          "slug": "9-1",
+          "title": "9.1 字串基本轉換與取得相關資訊",
+          "videoId": null,
+          "order": 1
+        },
+        {
+          "slug": "9-2",
+          "title": "9.2 分割與合併字串",
+          "videoId": null,
+          "order": 2
+        },
+        {
+          "slug": "9-3",
+          "title": "9.3 尋找與取代字串",
+          "videoId": null,
+          "order": 3
+        },
+        {
+          "slug": "9-4",
+          "title": "9.4 正規表示式相關函式",
+          "videoId": null,
+          "order": 4
+        },
+        {
+          "slug": "9-5",
+          "title": "9.5 進階應用",
+          "videoId": null,
+          "order": 5
+        },
+        {
+          "slug": "9-appendix",
+          "title": "Appendix 9. 函式 (四)：字串處理",
+          "videoId": null,
+          "order": 6
+        }
+      ],
+      "exampleUrl": "https://docs.google.com/spreadsheets/d/1ZAooy_aYh0XBpMVm5LzhjVk8UdtW_HRUaJxEFcut8Os/edit",
+      "exampleTitle": "Chapter 9. 函式 (四)：字串處理",
+      "desc": "本章將介紹 Google Sheets 中有關文字相關之函式，也會使用 ptt 熱門看板的網頁資料示範各函式的用法。此外，在各節範例及最後一節的進階應用中，也會說明在處理字串的思路，絕對是學會函式使用之外更重要的技能。",
+      "doneUrl": "https://docs.google.com/spreadsheets/d/1m4ShFet8QbLTAZvhlEBYJ9rOzJXLpTLCnzDmSs6UmCc/edit",
+      "doneTitle": "Chapter 9. 函式 (四)：字串處理 完成版"
+    },
+    {
+      "slug": "chapter-10",
+      "title": "Chapter 10. 函式 (五)：特殊功能函式",
+      "videoId": null,
+      "sections": [
+        {
+          "slug": "10-1",
+          "title": "10.1 計算資產折舊",
+          "videoId": null,
+          "order": 1
+        },
+        {
+          "slug": "10-2",
+          "title": "10.2 計算年金數值",
+          "videoId": null,
+          "order": 2
+        },
+        {
+          "slug": "10-3",
+          "title": "10.3 資料生成",
+          "videoId": null,
+          "order": 3
+        },
+        {
+          "slug": "10-4",
+          "title": "10.4 資料型態判斷",
+          "videoId": null,
+          "order": 4
+        },
+        {
+          "slug": "10-5",
+          "title": "10.5 數值調整與格式轉換",
+          "videoId": null,
+          "order": 5
+        },
+        {
+          "slug": "10-6",
+          "title": "10.6 資料庫函式",
+          "videoId": null,
+          "order": 6
+        },
+        {
+          "slug": "10-appendix",
+          "title": "Appendix 10. 函式 (五)：特殊功能函式",
+          "videoId": null,
+          "order": 7
+        }
+      ],
+      "exampleUrl": "https://docs.google.com/spreadsheets/d/1NHa5KS5CYAEH729GeZm4M71kgui-AcVy7NoJgE-P0cE/edit",
+      "exampleTitle": "Chapter 10. 函式 (五)：特殊功能函式",
+      "desc": "本節將會介紹一些功能較為特殊的函式，前五節包括會計、資料生成、資料型態與格式相關的函式，最後一節會介紹資料庫函式，提供一種不同的方式完成第 6.5~6.6 節學到的資料統計值，大家可以根據自己的習慣選擇使用的函式。另外因為各節的函式用途不太相同，因此本章沒有整合各節內容的進階應用。",
+      "doneUrl": "https://docs.google.com/spreadsheets/d/1hhZJ_lLhdHcVXjvisapUEGl2p_ZOucK-C6UReGAGkrY/edit",
+      "doneTitle": "Chapter 10. 函式 (五)：特殊功能函式 完成版"
+    },
+    {
+      "slug": "chapter-11",
+      "title": "Chapter 11. 函式 (六)：陣列與陣列函式",
+      "videoId": null,
+      "sections": [
+        {
+          "slug": "11-1",
+          "title": "11.1 陣列 (Array) 基本概念",
+          "videoId": null,
+          "order": 1
+        },
+        {
+          "slug": "11-2",
+          "title": "11.2 ARRAYFORMULA",
+          "videoId": null,
+          "order": 2
+        },
+        {
+          "slug": "11-3",
+          "title": "11.3 陣列欄列轉換",
+          "videoId": null,
+          "order": 3
+        },
+        {
+          "slug": "11-4",
+          "title": "11.4 陣列統計與篩選",
+          "videoId": null,
+          "order": 4
+        },
+        {
+          "slug": "11-appendix",
+          "title": "Appendix 11. 函式 (六)：陣列與陣列函式",
+          "videoId": null,
+          "order": 5
+        }
+      ],
+      "exampleUrl": "https://docs.google.com/spreadsheets/d/1dU_JihRQF4p0aja1x2wYW5fMXRJlP7whJqLi2YmFFNM/edit",
+      "exampleTitle": "Chapter 11. 函式 (六)：陣列與陣列函式",
+      "desc": "本章介紹了 Google Sheets 中非常重要的陣列概念，再介紹如何使用 ARRAYFORMULA 將原本僅用於單一資料的函式延伸至整個函式，後兩節介紹一些陣列相關的函式，讓大家能用更靈活的方式操作 Google Sheets。另外本章也不會有進階應用，而是將較困難的範例直接放在各節中。",
+      "doneUrl": "https://docs.google.com/spreadsheets/d/113FkrBAXaCHqcf-SVnpQ8W1A0gcdQFGAmFBve81EJ1w/edit",
+      "doneTitle": "Chapter 11. 函式 (六)：陣列與陣列函式 完成版"
+    },
+    {
+      "slug": "chapter-12",
+      "title": "Chapter 12. 函式 (七)：自定義函式",
+      "videoId": null,
+      "sections": [
+        {
+          "slug": "12-1",
+          "title": "12.1 LET",
+          "videoId": null,
+          "order": 1
+        },
+        {
+          "slug": "12-2",
+          "title": "12.2 已命名函式",
+          "videoId": null,
+          "order": 2
+        },
+        {
+          "slug": "12-3",
+          "title": "12.3 LAMBDA",
+          "videoId": null,
+          "order": 3
+        },
+        {
+          "slug": "12-4",
+          "title": "12.4 LAMBDA 輔助函式",
+          "videoId": null,
+          "order": 4
+        },
+        {
+          "slug": "12-appendix",
+          "title": "Appendix 12. 函式 (七)：自定義函式",
+          "videoId": null,
+          "order": 5
+        }
+      ],
+      "exampleUrl": "https://docs.google.com/spreadsheets/d/1VoahEfu6sBQf0drTgyH5gyb0U-UFxyenNg119uKt2mg/edit",
+      "exampleTitle": "Chapter 12. 函式 (七)：自定義函式",
+      "desc": "本節將介紹 LET、已命名函式、LAMBDA 三個功能，主要是用來命名重複出現的變數與公式，增加變數與函式的可讀性。本章會用到許多前面介紹過的函式，因此若對前面幾章內容還不熟的同學可以在用到相關函式時回去複習其用法。",
+      "doneUrl": "https://docs.google.com/spreadsheets/d/10hbPvJlCKT1sQ_gT3zOqMETeIqluVxHc2OO-u8V5ISE/edit",
+      "doneTitle": "Chapter 12. 函式(七)：自定義函式完成版"
+    },
+    {
+      "slug": "chapter-13",
+      "title": "Chapter 13. 函式 (八)：QUERY",
+      "videoId": null,
+      "sections": [
+        {
+          "slug": "13-1",
+          "title": "13.1 QUERY 基本用法",
+          "videoId": null,
+          "order": 1
+        },
+        {
+          "slug": "13-2",
+          "title": "13.2 資料條件篩選",
+          "videoId": null,
+          "order": 2
+        },
+        {
+          "slug": "13-3",
+          "title": "13.3 日期與時間處理",
+          "videoId": null,
+          "order": 3
+        },
+        {
+          "slug": "13-4",
+          "title": "13.4 字串處理",
+          "videoId": null,
+          "order": 4
+        },
+        {
+          "slug": "13-5",
+          "title": "13.5 group by / pivot",
+          "videoId": null,
+          "order": 5
+        },
+        {
+          "slug": "13-6",
+          "title": "13.6 其他資料篩選與設定",
+          "videoId": null,
+          "order": 6
+        },
+        {
+          "slug": "13-7",
+          "title": "13.7 進階應用",
+          "videoId": null,
+          "order": 7
+        }
+      ],
+      "exampleUrl": "https://docs.google.com/spreadsheets/d/1fCdKJQjbjBGhlZvHddKQkMP9jujkg2TUeNxN_QjyXf4/edit",
+      "exampleTitle": "Chapter 13. 函式 (八)：QUERY",
+      "desc": "QUERY 是用 Google 視覺化 API 搜尋語言 完成的，可以輕鬆的針對結構化資料進行各種分析。本章將由淺入深的介紹 QUERY 的各項語法，並在最後一節的進階應用示範如何處理複雜的資料，讓大家之後使用 Google Sheets 進行資料分析，或是之後學習使用 SQL 處理更大量的資料時更得心應手！另外 QUERY 是 Google Sheets 獨有的函式，Excel 目前沒有此功能，將不特別使用 Appendix 說明之。",
+      "doneUrl": "https://docs.google.com/spreadsheets/d/1OqA56vW8VvLKi7vWRu7OVWJJo0ah9CsLOUqLAIvka-E/edit",
+      "doneTitle": "Chapter 13. 函式 (八)：QUERY 完成版"
+    },
+    {
+      "slug": "chapter-14",
+      "title": "Chapter 14. Google Sheets 擴充功能簡介",
+      "videoId": null,
+      "sections": [
+        {
+          "slug": "14-1",
+          "title": "14.1 與其他 Google 工具的串接",
+          "videoId": null,
+          "order": 1
+        },
+        {
+          "slug": "14-2",
+          "title": "14.2 Google Workspace 外掛程式簡介",
+          "videoId": null,
+          "order": 2
+        },
+        {
+          "slug": "14-3",
+          "title": "14.3 Apps Script 簡介",
+          "videoId": null,
+          "order": 3
+        }
+      ],
+      "exampleUrl": "https://docs.google.com/spreadsheets/d/1Vguw0yTXi2ScPRVOvJnF4PYGK4Bdl3OR3sEm65ApMqE/edit",
+      "exampleTitle": "Chapter 14. Google Sheets 擴充功能簡介",
+      "desc": "Google Sheets 除了自身強大的功能外，還能與其他 Google 的工具搭配使用，此外還可以透過 Google Workplace Marketplace 取得其他以 Google 工具為基礎的強大工具，增加 Google Sheets 的實用性。本章第 1 節將會介紹如何與其他工具如 Google 文件、簡報、表單等工具並用；第 2 節將介紹如何取得與使用外掛程式，並以 GoalSeek 作為範例說明其用法；第 3 節將簡單介紹另一個強大的功能 — Google Apps Script，可以用於 Google 的各項服務。",
+      "doneUrl": "https://docs.google.com/spreadsheets/d/1SsdW-IjQbI_0oyOpR9Bbc5YqQxJovMH5KaUTu9H0UAs/edit",
+      "doneTitle": "Chapter 14. Google Sheets 擴充功能簡介 完成版"
+    },
+    {
+      "slug": "epilogue",
+      "title": "結語",
+      "videoId": null,
+      "sections": [],
+      "standalone": true
+    }
+  ]
+}

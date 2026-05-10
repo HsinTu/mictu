@@ -1,0 +1,1019 @@
+{
+  "functions": [
+    {
+      "name": "ABS",
+      "slug": "6-1",
+      "section": "6.1 運算符號、布林值與參照"
+    },
+    {
+      "name": "ADDRESS",
+      "slug": "7-1",
+      "section": "7.1 查詢函式：儲存格位置"
+    },
+    {
+      "name": "ARRAYFORMULA",
+      "slug": "11-2",
+      "section": "11.2 ARRAYFORMULA"
+    },
+    {
+      "name": "ARRAY_CONSTRAIN",
+      "slug": "11-4",
+      "section": "11.4 陣列統計與篩選"
+    },
+    {
+      "name": "AVERAGE",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "AVERAGE.WEIGHTED",
+      "slug": "6-7",
+      "section": "6.7 計算加權平均與加總"
+    },
+    {
+      "name": "AVERAGEA",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "AVERAGEIF",
+      "slug": "6-6",
+      "section": "6.6 包含條件的統計值"
+    },
+    {
+      "name": "AVERAGEIFS",
+      "slug": "6-6",
+      "section": "6.6 包含條件的統計值"
+    },
+    {
+      "name": "BYCOL",
+      "slug": "12-4",
+      "section": "12.4 LAMBDA 輔助函式"
+    },
+    {
+      "name": "BYROW",
+      "slug": "12-4",
+      "section": "12.4 LAMBDA 輔助函式"
+    },
+    {
+      "name": "CEILING",
+      "slug": "10-5",
+      "section": "10.5 數值調整與格式轉換"
+    },
+    {
+      "name": "CHAR",
+      "slug": "9-2",
+      "section": "9.2 分割與合併字串"
+    },
+    {
+      "name": "CHOOSECOLS",
+      "slug": "11-4",
+      "section": "11.4 陣列統計與篩選"
+    },
+    {
+      "name": "CHOOSEROWS",
+      "slug": "11-4",
+      "section": "11.4 陣列統計與篩選"
+    },
+    {
+      "name": "COLUMN",
+      "slug": "7-1",
+      "section": "7.1 查詢函式：儲存格位置"
+    },
+    {
+      "name": "COLUMNS",
+      "slug": "7-1",
+      "section": "7.1 查詢函式：儲存格位置"
+    },
+    {
+      "name": "CONCATENATE",
+      "slug": "9-2",
+      "section": "9.2 分割與合併字串"
+    },
+    {
+      "name": "COUNT",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "COUNTA",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "COUNTBLANK",
+      "slug": "6-6",
+      "section": "6.6 包含條件的統計值"
+    },
+    {
+      "name": "COUNTIF",
+      "slug": "6-6",
+      "section": "6.6 包含條件的統計值"
+    },
+    {
+      "name": "COUNTIFS",
+      "slug": "6-6",
+      "section": "6.6 包含條件的統計值"
+    },
+    {
+      "name": "COUNTUNIQUE",
+      "slug": "6-6",
+      "section": "6.6 包含條件的統計值"
+    },
+    {
+      "name": "COUNTUNIQUEIFS",
+      "slug": "6-6",
+      "section": "6.6 包含條件的統計值"
+    },
+    {
+      "name": "DATE",
+      "slug": "8-1",
+      "section": "8.1 建立日期與時間"
+    },
+    {
+      "name": "DATEDIF",
+      "slug": "1-3",
+      "section": "1.3 公式簡介"
+    },
+    {
+      "name": "DATEVALUE",
+      "slug": "8-1",
+      "section": "8.1 建立日期與時間"
+    },
+    {
+      "name": "DAVERAGE",
+      "slug": "10-6",
+      "section": "10.6 資料庫函式"
+    },
+    {
+      "name": "DAY",
+      "slug": "8-2",
+      "section": "8.2 取得日期與時間"
+    },
+    {
+      "name": "DAYS",
+      "slug": "8-3",
+      "section": "8.3 日期與時間運算"
+    },
+    {
+      "name": "DB",
+      "slug": "10-1",
+      "section": "10.1 計算資產折舊"
+    },
+    {
+      "name": "DCOUNT",
+      "slug": "10-6",
+      "section": "10.6 資料庫函式"
+    },
+    {
+      "name": "DCOUNTA",
+      "slug": "10-6",
+      "section": "10.6 資料庫函式"
+    },
+    {
+      "name": "DDB",
+      "slug": "10-1",
+      "section": "10.1 計算資產折舊"
+    },
+    {
+      "name": "DGET",
+      "slug": "10-6",
+      "section": "10.6 資料庫函式"
+    },
+    {
+      "name": "DMAX",
+      "slug": "10-6",
+      "section": "10.6 資料庫函式"
+    },
+    {
+      "name": "DMIN",
+      "slug": "10-6",
+      "section": "10.6 資料庫函式"
+    },
+    {
+      "name": "DOLLAR",
+      "slug": "10-5",
+      "section": "10.5 數值調整與格式轉換"
+    },
+    {
+      "name": "DPRODUCT",
+      "slug": "10-6",
+      "section": "10.6 資料庫函式"
+    },
+    {
+      "name": "DSTDEV",
+      "slug": "10-6",
+      "section": "10.6 資料庫函式"
+    },
+    {
+      "name": "DSTDEVP",
+      "slug": "10-6",
+      "section": "10.6 資料庫函式"
+    },
+    {
+      "name": "DSUM",
+      "slug": "10-6",
+      "section": "10.6 資料庫函式"
+    },
+    {
+      "name": "DVAR",
+      "slug": "10-6",
+      "section": "10.6 資料庫函式"
+    },
+    {
+      "name": "DVARP",
+      "slug": "10-6",
+      "section": "10.6 資料庫函式"
+    },
+    {
+      "name": "EDATE",
+      "slug": "8-3",
+      "section": "8.3 日期與時間運算"
+    },
+    {
+      "name": "EOMONTH",
+      "slug": "8-3",
+      "section": "8.3 日期與時間運算"
+    },
+    {
+      "name": "ERROR.TYPE",
+      "slug": "6-2",
+      "section": "6.2 資料錯誤的型態"
+    },
+    {
+      "name": "FILTER",
+      "slug": "7-7",
+      "section": "7.7 篩選函式：FILTER"
+    },
+    {
+      "name": "FIND",
+      "slug": "9-3",
+      "section": "9.3 尋找與取代字串"
+    },
+    {
+      "name": "FINDB",
+      "slug": "9-3",
+      "section": "9.3 尋找與取代字串"
+    },
+    {
+      "name": "FIXED",
+      "slug": "10-5",
+      "section": "10.5 數值調整與格式轉換"
+    },
+    {
+      "name": "FLATTEN",
+      "slug": "11-3",
+      "section": "11.3 陣列欄列轉換"
+    },
+    {
+      "name": "FLOOR",
+      "slug": "10-5",
+      "section": "10.5 數值調整與格式轉換"
+    },
+    {
+      "name": "FREQUENCY",
+      "slug": "11-4",
+      "section": "11.4 陣列統計與篩選"
+    },
+    {
+      "name": "FV",
+      "slug": "10-2",
+      "section": "10.2 計算年金數值"
+    },
+    {
+      "name": "GETPIVOTDATA",
+      "slug": "4-5",
+      "section": "4.5 使用 GETPIVOTDATA 取得資料透視表之分析結果"
+    },
+    {
+      "name": "HLOOKUP",
+      "slug": "7-3",
+      "section": "7.3 查詢函式：-LOOKUP"
+    },
+    {
+      "name": "HOUR",
+      "slug": "8-2",
+      "section": "8.2 取得日期與時間"
+    },
+    {
+      "name": "HSTACK",
+      "slug": "11-3",
+      "section": "11.3 陣列欄列轉換"
+    },
+    {
+      "name": "IF",
+      "slug": "6-4",
+      "section": "6.4 條件判斷"
+    },
+    {
+      "name": "IFERROR",
+      "slug": "6-4",
+      "section": "6.4 條件判斷"
+    },
+    {
+      "name": "IFNA",
+      "slug": "6-4",
+      "section": "6.4 條件判斷"
+    },
+    {
+      "name": "IFS",
+      "slug": "1-3",
+      "section": "1.3 公式簡介"
+    },
+    {
+      "name": "IMPORTRANGE",
+      "slug": "3-1",
+      "section": "3.1 匯入資料"
+    },
+    {
+      "name": "INDEX",
+      "slug": "7-2",
+      "section": "7.2 查詢函式：INDEX / MATCH"
+    },
+    {
+      "name": "INDIRECT",
+      "slug": "7-1",
+      "section": "7.1 查詢函式：儲存格位置"
+    },
+    {
+      "name": "ISBLANK",
+      "slug": "10-4",
+      "section": "10.4 資料型態判斷"
+    },
+    {
+      "name": "ISDATE",
+      "slug": "10-4",
+      "section": "10.4 資料型態判斷"
+    },
+    {
+      "name": "ISEMAIL",
+      "slug": "10-4",
+      "section": "10.4 資料型態判斷"
+    },
+    {
+      "name": "ISERR",
+      "slug": "10-4",
+      "section": "10.4 資料型態判斷"
+    },
+    {
+      "name": "ISERROR",
+      "slug": "10-4",
+      "section": "10.4 資料型態判斷"
+    },
+    {
+      "name": "ISEVEN",
+      "slug": "10-4",
+      "section": "10.4 資料型態判斷"
+    },
+    {
+      "name": "ISFORMULA",
+      "slug": "10-4",
+      "section": "10.4 資料型態判斷"
+    },
+    {
+      "name": "ISLOGICAL",
+      "slug": "10-4",
+      "section": "10.4 資料型態判斷"
+    },
+    {
+      "name": "ISNA",
+      "slug": "10-4",
+      "section": "10.4 資料型態判斷"
+    },
+    {
+      "name": "ISNONTEXT",
+      "slug": "10-4",
+      "section": "10.4 資料型態判斷"
+    },
+    {
+      "name": "ISNUMBER",
+      "slug": "10-4",
+      "section": "10.4 資料型態判斷"
+    },
+    {
+      "name": "ISODD",
+      "slug": "10-4",
+      "section": "10.4 資料型態判斷"
+    },
+    {
+      "name": "ISREF",
+      "slug": "10-4",
+      "section": "10.4 資料型態判斷"
+    },
+    {
+      "name": "ISTEXT",
+      "slug": "10-4",
+      "section": "10.4 資料型態判斷"
+    },
+    {
+      "name": "ISURL",
+      "slug": "10-4",
+      "section": "10.4 資料型態判斷"
+    },
+    {
+      "name": "JOIN",
+      "slug": "9-2",
+      "section": "9.2 分割與合併字串"
+    },
+    {
+      "name": "LAMBDA",
+      "slug": "12-3",
+      "section": "12.3 LAMBDA"
+    },
+    {
+      "name": "LARGE",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "LEFT",
+      "slug": "9-1",
+      "section": "9.1 字串基本轉換與取得相關資訊"
+    },
+    {
+      "name": "LEFTB",
+      "slug": "9-1",
+      "section": "9.1 字串基本轉換與取得相關資訊"
+    },
+    {
+      "name": "LEN",
+      "slug": "9-1",
+      "section": "9.1 字串基本轉換與取得相關資訊"
+    },
+    {
+      "name": "LENB",
+      "slug": "9-1",
+      "section": "9.1 字串基本轉換與取得相關資訊"
+    },
+    {
+      "name": "LET",
+      "slug": "12-1",
+      "section": "12.1 LET"
+    },
+    {
+      "name": "LOOKUP",
+      "slug": "7-3",
+      "section": "7.3 查詢函式：-LOOKUP"
+    },
+    {
+      "name": "LOWER",
+      "slug": "9-1",
+      "section": "9.1 字串基本轉換與取得相關資訊"
+    },
+    {
+      "name": "MAKEARRAY",
+      "slug": "12-4",
+      "section": "12.4 LAMBDA 輔助函式"
+    },
+    {
+      "name": "MAP",
+      "slug": "12-4",
+      "section": "12.4 LAMBDA 輔助函式"
+    },
+    {
+      "name": "MATCH",
+      "slug": "7-2",
+      "section": "7.2 查詢函式：INDEX / MATCH"
+    },
+    {
+      "name": "MAX",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "MAXA",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "MAXIFS",
+      "slug": "6-6",
+      "section": "6.6 包含條件的統計值"
+    },
+    {
+      "name": "MEDIAN",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "MID",
+      "slug": "9-1",
+      "section": "9.1 字串基本轉換與取得相關資訊"
+    },
+    {
+      "name": "MIDB",
+      "slug": "9-1",
+      "section": "9.1 字串基本轉換與取得相關資訊"
+    },
+    {
+      "name": "MIN",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "MINA",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "MINIFS",
+      "slug": "6-6",
+      "section": "6.6 包含條件的統計值"
+    },
+    {
+      "name": "MINUS",
+      "slug": "6-1",
+      "section": "6.1 運算符號、布林值與參照"
+    },
+    {
+      "name": "MINUTE",
+      "slug": "8-2",
+      "section": "8.2 取得日期與時間"
+    },
+    {
+      "name": "MOD",
+      "slug": "6-1",
+      "section": "6.1 運算符號、布林值與參照"
+    },
+    {
+      "name": "MODE",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "MONTH",
+      "slug": "8-2",
+      "section": "8.2 取得日期與時間"
+    },
+    {
+      "name": "MROUND",
+      "slug": "10-5",
+      "section": "10.5 數值調整與格式轉換"
+    },
+    {
+      "name": "NETWORKDAYS",
+      "slug": "8-3",
+      "section": "8.3 日期與時間運算"
+    },
+    {
+      "name": "NETWORKDAYS.INTL",
+      "slug": "8-3",
+      "section": "8.3 日期與時間運算"
+    },
+    {
+      "name": "NORMINV",
+      "slug": "10-3",
+      "section": "10.3 資料生成"
+    },
+    {
+      "name": "NOW",
+      "slug": "8-1",
+      "section": "8.1 建立日期與時間"
+    },
+    {
+      "name": "NPER",
+      "slug": "10-2",
+      "section": "10.2 計算年金數值"
+    },
+    {
+      "name": "OFFSET",
+      "slug": "7-5",
+      "section": "7.5 查詢函式：OFFSET"
+    },
+    {
+      "name": "PERCENTIF",
+      "slug": "6-6",
+      "section": "6.6 包含條件的統計值"
+    },
+    {
+      "name": "PERCENTILE",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "PERCENTRANK",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "PMT",
+      "slug": "10-2",
+      "section": "10.2 計算年金數值"
+    },
+    {
+      "name": "POWER",
+      "slug": "6-1",
+      "section": "6.1 運算符號、布林值與參照"
+    },
+    {
+      "name": "PRODUCT",
+      "slug": "10-6",
+      "section": "10.6 資料庫函式"
+    },
+    {
+      "name": "PROPER",
+      "slug": "9-1",
+      "section": "9.1 字串基本轉換與取得相關資訊"
+    },
+    {
+      "name": "PV",
+      "slug": "10-2",
+      "section": "10.2 計算年金數值"
+    },
+    {
+      "name": "QUARTILE",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "QUERY",
+      "slug": "13-1",
+      "section": "13.1 QUERY 基本用法"
+    },
+    {
+      "name": "QUOTIENT",
+      "slug": "6-1",
+      "section": "6.1 運算符號、布林值與參照"
+    },
+    {
+      "name": "RAND",
+      "slug": "10-3",
+      "section": "10.3 資料生成"
+    },
+    {
+      "name": "RANDARRAY",
+      "slug": "10-3",
+      "section": "10.3 資料生成"
+    },
+    {
+      "name": "RANDBETWEEN",
+      "slug": "10-3",
+      "section": "10.3 資料生成"
+    },
+    {
+      "name": "RANK",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "RATE",
+      "slug": "10-2",
+      "section": "10.2 計算年金數值"
+    },
+    {
+      "name": "REDUCE",
+      "slug": "12-4",
+      "section": "12.4 LAMBDA 輔助函式"
+    },
+    {
+      "name": "REGEXEXTRACT",
+      "slug": "9-4",
+      "section": "9.4 正規表示式相關函式"
+    },
+    {
+      "name": "REGEXMATCH",
+      "slug": "9-4",
+      "section": "9.4 正規表示式相關函式"
+    },
+    {
+      "name": "REGEXREPLACE",
+      "slug": "9-4",
+      "section": "9.4 正規表示式相關函式"
+    },
+    {
+      "name": "REPLACE",
+      "slug": "9-3",
+      "section": "9.3 尋找與取代字串"
+    },
+    {
+      "name": "REPLACEB",
+      "slug": "9-3",
+      "section": "9.3 尋找與取代字串"
+    },
+    {
+      "name": "REPT",
+      "slug": "10-3",
+      "section": "10.3 資料生成"
+    },
+    {
+      "name": "RIGHT",
+      "slug": "9-1",
+      "section": "9.1 字串基本轉換與取得相關資訊"
+    },
+    {
+      "name": "RIGHTB",
+      "slug": "9-1",
+      "section": "9.1 字串基本轉換與取得相關資訊"
+    },
+    {
+      "name": "ROUND",
+      "slug": "10-5",
+      "section": "10.5 數值調整與格式轉換"
+    },
+    {
+      "name": "ROUNDDOWN",
+      "slug": "10-5",
+      "section": "10.5 數值調整與格式轉換"
+    },
+    {
+      "name": "ROUNDUP",
+      "slug": "10-5",
+      "section": "10.5 數值調整與格式轉換"
+    },
+    {
+      "name": "ROW",
+      "slug": "7-1",
+      "section": "7.1 查詢函式：儲存格位置"
+    },
+    {
+      "name": "ROWS",
+      "slug": "7-1",
+      "section": "7.1 查詢函式：儲存格位置"
+    },
+    {
+      "name": "SCAN",
+      "slug": "12-4",
+      "section": "12.4 LAMBDA 輔助函式"
+    },
+    {
+      "name": "SEARCH",
+      "slug": "9-3",
+      "section": "9.3 尋找與取代字串"
+    },
+    {
+      "name": "SEARCHB",
+      "slug": "9-3",
+      "section": "9.3 尋找與取代字串"
+    },
+    {
+      "name": "SECOND",
+      "slug": "8-2",
+      "section": "8.2 取得日期與時間"
+    },
+    {
+      "name": "SEQUENCE",
+      "slug": "10-3",
+      "section": "10.3 資料生成"
+    },
+    {
+      "name": "SLN",
+      "slug": "10-1",
+      "section": "10.1 計算資產折舊"
+    },
+    {
+      "name": "SMALL",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "SORT",
+      "slug": "7-6",
+      "section": "7.6 篩選函式：UNIQUE / SORT / SORTN"
+    },
+    {
+      "name": "SORTN",
+      "slug": "7-6",
+      "section": "7.6 篩選函式：UNIQUE / SORT / SORTN"
+    },
+    {
+      "name": "SPARKLINE",
+      "slug": "5-4",
+      "section": "5.4 使用 SPARKLINE 在儲存格中繪製圖表"
+    },
+    {
+      "name": "SPLIT",
+      "slug": "9-2",
+      "section": "9.2 分割與合併字串"
+    },
+    {
+      "name": "SQRT",
+      "slug": "6-1",
+      "section": "6.1 運算符號、布林值與參照"
+    },
+    {
+      "name": "STDEV",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "STDEVA",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "STDEVP",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "STDEVPA",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "SUBSTITUTE",
+      "slug": "9-3",
+      "section": "9.3 尋找與取代字串"
+    },
+    {
+      "name": "SUM",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "SUMIF",
+      "slug": "1-3",
+      "section": "1.3 公式簡介"
+    },
+    {
+      "name": "SUMIFS",
+      "slug": "6-6",
+      "section": "6.6 包含條件的統計值"
+    },
+    {
+      "name": "SUMPRODUCT",
+      "slug": "4-3",
+      "section": "4.3 資料透視表分析方式 — 進階篇"
+    },
+    {
+      "name": "SWITCH",
+      "slug": "6-4",
+      "section": "6.4 條件判斷"
+    },
+    {
+      "name": "SYD",
+      "slug": "10-1",
+      "section": "10.1 計算資產折舊"
+    },
+    {
+      "name": "TEXT",
+      "slug": "10-5",
+      "section": "10.5 數值調整與格式轉換"
+    },
+    {
+      "name": "TEXTJOIN",
+      "slug": "9-2",
+      "section": "9.2 分割與合併字串"
+    },
+    {
+      "name": "TIME",
+      "slug": "8-1",
+      "section": "8.1 建立日期與時間"
+    },
+    {
+      "name": "TIMEVALUE",
+      "slug": "8-1",
+      "section": "8.1 建立日期與時間"
+    },
+    {
+      "name": "TOCOL",
+      "slug": "11-3",
+      "section": "11.3 陣列欄列轉換"
+    },
+    {
+      "name": "TODAY",
+      "slug": "1-3",
+      "section": "1.3 公式簡介"
+    },
+    {
+      "name": "TOROW",
+      "slug": "11-3",
+      "section": "11.3 陣列欄列轉換"
+    },
+    {
+      "name": "TO_DATE",
+      "slug": "10-5",
+      "section": "10.5 數值調整與格式轉換"
+    },
+    {
+      "name": "TO_DOLLARS",
+      "slug": "10-5",
+      "section": "10.5 數值調整與格式轉換"
+    },
+    {
+      "name": "TO_PERCENT",
+      "slug": "10-5",
+      "section": "10.5 數值調整與格式轉換"
+    },
+    {
+      "name": "TO_PURE_NUMBER",
+      "slug": "10-5",
+      "section": "10.5 數值調整與格式轉換"
+    },
+    {
+      "name": "TO_TEXT",
+      "slug": "10-5",
+      "section": "10.5 數值調整與格式轉換"
+    },
+    {
+      "name": "TRANSPOSE",
+      "slug": "11-3",
+      "section": "11.3 陣列欄列轉換"
+    },
+    {
+      "name": "TRIM",
+      "slug": "9-2",
+      "section": "9.2 分割與合併字串"
+    },
+    {
+      "name": "TYPE",
+      "slug": "2-5",
+      "section": "2.5 數值格式設定與資料型態"
+    },
+    {
+      "name": "UNIQUE",
+      "slug": "7-6",
+      "section": "7.6 篩選函式：UNIQUE / SORT / SORTN"
+    },
+    {
+      "name": "UPPER",
+      "slug": "9-1",
+      "section": "9.1 字串基本轉換與取得相關資訊"
+    },
+    {
+      "name": "VALUE",
+      "slug": "10-5",
+      "section": "10.5 數值調整與格式轉換"
+    },
+    {
+      "name": "VAR",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "VARA",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "VARP",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "VARPA",
+      "slug": "6-5",
+      "section": "6.5 統計值與資料大小排序"
+    },
+    {
+      "name": "VDB",
+      "slug": "10-1",
+      "section": "10.1 計算資產折舊"
+    },
+    {
+      "name": "VLOOKUP",
+      "slug": "7-3",
+      "section": "7.3 查詢函式：-LOOKUP"
+    },
+    {
+      "name": "VSTACK",
+      "slug": "11-3",
+      "section": "11.3 陣列欄列轉換"
+    },
+    {
+      "name": "WEEKDAY",
+      "slug": "8-2",
+      "section": "8.2 取得日期與時間"
+    },
+    {
+      "name": "WEEKNUM",
+      "slug": "8-2",
+      "section": "8.2 取得日期與時間"
+    },
+    {
+      "name": "WORKDAY",
+      "slug": "8-3",
+      "section": "8.3 日期與時間運算"
+    },
+    {
+      "name": "WORKDAY.INTL",
+      "slug": "8-3",
+      "section": "8.3 日期與時間運算"
+    },
+    {
+      "name": "WRAPCOLS",
+      "slug": "11-3",
+      "section": "11.3 陣列欄列轉換"
+    },
+    {
+      "name": "WRAPROWS",
+      "slug": "11-3",
+      "section": "11.3 陣列欄列轉換"
+    },
+    {
+      "name": "XLOOKUP",
+      "slug": "7-4",
+      "section": "7.4 查詢函式：XMATCH / XLOOKUP"
+    },
+    {
+      "name": "XMATCH",
+      "slug": "7-4",
+      "section": "7.4 查詢函式：XMATCH / XLOOKUP"
+    },
+    {
+      "name": "YEAR",
+      "slug": "8-2",
+      "section": "8.2 取得日期與時間"
+    }
+  ]
+}
