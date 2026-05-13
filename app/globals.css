@@ -300,7 +300,7 @@ body {
 /* 公式表格：左側標籤欄 */
 .tutorial-body .formula-table td:first-child {
   background: #dbeafe;
-  white-space: nowrap;
+  min-width: 2em;
   vertical-align: middle;
 }
 /* 比較表格：第一列表頭 */
@@ -308,7 +308,7 @@ body {
   background: #dbeafe;
   font-weight: 700;
   text-align: center;
-  white-space: nowrap;
+  min-width: 2em;
   vertical-align: middle;
 }
 

@@ -3,14 +3,10 @@ import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
 const NAV_ITEMS = [
-  { label: '關於我', href: '/about', children: null },
-  {
-    label: '教學資源',
-    href: '/google-sheets-tutorial',
-    children: [{ label: 'Google Sheets 教學', href: '/google-sheets-tutorial' }],
-  },
-  { label: '選書', href: '/books', children: null },
-  { label: '生活誌', href: '/life', children: null },
+  { label: 'Home', href: '/' },
+  { label: 'Articles', href: '/articles' },
+  { label: 'Google Sheets', href: '/google-sheets-tutorial' },
+  { label: 'Accounting', href: '/accounting' },
 ]
 
 function LinkedInIcon() {
@@ -37,16 +33,28 @@ function EmailIcon() {
   )
 }
 
-function ChevronDown() {
+function HamburgerIcon() {
   return (
-    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
-      <path d="M2 3.5l3 3 3-3" />
+    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+      <line x1="3" y1="6" x2="19" y2="6" />
+      <line x1="3" y1="11" x2="19" y2="11" />
+      <line x1="3" y1="16" x2="19" y2="16" />
+    </svg>
+  )
+}
+
+function CloseIcon() {
+  return (
+    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+      <line x1="4" y1="4" x2="18" y2="18" />
+      <line x1="18" y1="4" x2="4" y2="18" />
     </svg>
   )
 }
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
+  const [mobileOpen, setMobileOpen] = useState(false)
 
   useEffect(() => {
     const check = () => setScrolled(window.scrollY > 80)
@@ -55,101 +63,112 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', check)
   }, [])
 
+  useEffect(() => {
+    if (mobileOpen) document.body.style.overflow = 'hidden'
+    else document.body.style.overflow = ''
+    return () => { document.body.style.overflow = '' }
+  }, [mobileOpen])
+
   const textColor = '#111827'
-  const mutedColor = '#1f2937'
 
   return (
-    <nav
-      className="fixed top-0 left-0 right-0 z-50 h-14"
-      style={{
-        background: scrolled ? 'white' : 'transparent',
-        borderBottom: scrolled ? '1px solid #f3f4f6' : '1px solid transparent',
-        boxShadow: scrolled ? '0 1px 12px rgba(0,0,0,0.07)' : 'none',
-        transition: 'background 0.6s ease, box-shadow 0.6s ease, border-color 0.6s ease',
-      }}
-    >
-      <div className="max-w-7xl mx-auto h-full px-6 flex items-center justify-between gap-6">
+    <>
+      <nav
+        className="fixed top-0 left-0 right-0 z-50 h-14"
+        style={{
+          background: scrolled || mobileOpen ? 'white' : 'transparent',
+          borderBottom: scrolled || mobileOpen ? '1px solid #f3f4f6' : '1px solid transparent',
+          boxShadow: scrolled || mobileOpen ? '0 1px 12px rgba(0,0,0,0.07)' : 'none',
+          transition: 'background 0.6s ease, box-shadow 0.6s ease, border-color 0.6s ease',
+        }}
+      >
+        <div className="max-w-7xl mx-auto h-full px-6 flex items-center justify-between gap-6">
 
-        {/* ── Left: Brand ── */}
-        <Link href="/" className="flex items-center gap-0 shrink-0 select-none">
-          <span className="font-semibold text-lg tracking-tight transition-colors" style={{ color: textColor }}>
-            MicTu
-          </span>
-          <span className="text-sm font-normal ml-2 transition-colors" style={{ color: textColor }}>
-            ｜ Google Sheets
-          </span>
-        </Link>
+          {/* Brand */}
+          <Link href="/" className="flex items-center shrink-0 select-none" onClick={() => setMobileOpen(false)}>
+            <span className="font-semibold text-lg tracking-tight" style={{ color: textColor }}>
+              MicTu
+            </span>
+          </Link>
 
-        {/* ── Center: Nav items ── */}
-        <div className="flex items-stretch flex-1 justify-center">
-          {NAV_ITEMS.map(item => (
-            <div key={item.label} className="relative group flex items-stretch">
+          {/* Desktop nav */}
+          <div className="hidden md:flex items-stretch flex-1 justify-center">
+            {NAV_ITEMS.map(item => (
               <Link
+                key={item.label}
                 href={item.href}
-                className="flex items-center gap-1 px-4 text-sm font-medium transition-colors"
+                className="flex items-center px-4 text-sm font-medium transition-colors hover:opacity-60"
                 style={{ color: textColor }}
               >
                 {item.label}
-                {item.children && (
-                  <span className="opacity-50 mt-0.5">
-                    <ChevronDown />
-                  </span>
-                )}
               </Link>
+            ))}
+          </div>
 
-              {item.children && (
-                <div
-                  className="absolute top-full left-0 pt-1 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-150"
-                  style={{ minWidth: '160px' }}
-                >
-                  <div className="bg-white rounded-xl shadow-lg border border-gray-100 py-1.5 overflow-hidden">
-                    {item.children.map(child => (
-                      <Link
-                        key={child.href}
-                        href={child.href}
-                        className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-gray-900 transition-colors"
-                      >
-                        {child.label}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              )}
+          {/* Desktop social icons */}
+          <div className="hidden md:flex items-center gap-3.5 shrink-0">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" title="LinkedIn"
+              className="transition-opacity hover:opacity-60" style={{ color: textColor }}>
+              <LinkedInIcon />
+            </a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" title="YouTube"
+              className="transition-opacity hover:opacity-60" style={{ color: textColor }}>
+              <YouTubeIcon />
+            </a>
+            <a href="mailto:hsintu0809@gmail.com" title="Email"
+              className="transition-opacity hover:opacity-60" style={{ color: textColor }}>
+              <EmailIcon />
+            </a>
+          </div>
+
+          {/* Mobile hamburger */}
+          <button
+            className="md:hidden flex items-center justify-center shrink-0 transition-opacity hover:opacity-60"
+            style={{ color: textColor }}
+            onClick={() => setMobileOpen(o => !o)}
+            aria-label={mobileOpen ? '關閉選單' : '開啟選單'}
+          >
+            {mobileOpen ? <CloseIcon /> : <HamburgerIcon />}
+          </button>
+
+        </div>
+      </nav>
+
+      {/* Mobile menu dropdown */}
+      {mobileOpen && (
+        <div
+          className="md:hidden fixed top-14 left-0 right-0 bottom-0 z-40 bg-white overflow-y-auto"
+          style={{ borderTop: '1px solid #f3f4f6' }}
+        >
+          <div className="px-6 py-4 flex flex-col gap-1">
+            {NAV_ITEMS.map(item => (
+              <Link
+                key={item.label}
+                href={item.href}
+                className="py-3 text-base font-medium border-b border-gray-100 last:border-0"
+                style={{ color: textColor }}
+                onClick={() => setMobileOpen(false)}
+              >
+                {item.label}
+              </Link>
+            ))}
+            <div className="flex items-center gap-5 pt-5">
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" title="LinkedIn"
+                className="transition-opacity hover:opacity-60" style={{ color: textColor }}>
+                <LinkedInIcon />
+              </a>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" title="YouTube"
+                className="transition-opacity hover:opacity-60" style={{ color: textColor }}>
+                <YouTubeIcon />
+              </a>
+              <a href="mailto:hsintu0809@gmail.com" title="Email"
+                className="transition-opacity hover:opacity-60" style={{ color: textColor }}>
+                <EmailIcon />
+              </a>
             </div>
-          ))}
+          </div>
         </div>
-
-        {/* ── Right: Social icons ── */}
-        <div className="flex items-center gap-3.5 shrink-0">
-          <a
-            href="https://www.linkedin.com"
-            target="_blank" rel="noopener noreferrer"
-            title="LinkedIn"
-            className="transition-opacity hover:opacity-60"
-            style={{ color: textColor }}
-          >
-            <LinkedInIcon />
-          </a>
-          <a
-            href="https://www.youtube.com"
-            target="_blank" rel="noopener noreferrer"
-            title="YouTube"
-            className="transition-opacity hover:opacity-60"
-            style={{ color: textColor }}
-          >
-            <YouTubeIcon />
-          </a>
-          <a
-            href="mailto:hsintu0809@gmail.com"
-            title="Email"
-            className="transition-opacity hover:opacity-60"
-            style={{ color: textColor }}
-          >
-            <EmailIcon />
-          </a>
-        </div>
-
-      </div>
-    </nav>
+      )}
+    </>
   )
 }
