@@ -264,6 +264,12 @@ body {
   align-self: flex-start;
 }
 
+/* formula-table 在 li 裡已由 list 提供縮排，不額外加 margin */
+.tutorial-body li > .formula-table {
+  margin-left: 0 !important;
+  width: 100% !important;
+}
+
 .tutorial-body table {
   width: 100%;
   border-collapse: collapse;
