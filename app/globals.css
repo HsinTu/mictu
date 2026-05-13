@@ -264,6 +264,11 @@ body {
   align-self: flex-start;
 }
 
+/* formula-table 全域縮排 1.75rem（inline style 可省略） */
+.tutorial-body .formula-table {
+  margin-left: 1.75rem;
+  width: calc(100% - 1.75rem);
+}
 /* formula-table 在 li 裡已由 list 提供縮排，不額外加 margin */
 .tutorial-body li > .formula-table {
   margin-left: 0 !important;
