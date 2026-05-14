@@ -59,11 +59,11 @@ export default function Footer() {
 
           {/* Social icons */}
           <div className="flex items-center gap-3 shrink-0">
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" title="LinkedIn"
+            <a href="https://www.linkedin.com/in/mic-tu-personal-profile/" target="_blank" rel="noopener noreferrer" title="LinkedIn"
               className="transition-colors hover:text-white" style={{ color: '#64748b' }}>
               <LinkedInIcon />
             </a>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" title="YouTube"
+            <a href="https://www.youtube.com/@mictu" target="_blank" rel="noopener noreferrer" title="YouTube"
               className="transition-colors hover:text-white" style={{ color: '#64748b' }}>
               <YouTubeIcon />
             </a>
@@ -75,9 +75,8 @@ export default function Footer() {
 
         </div>
 
-        <div className="mt-4 pt-3 flex flex-col sm:flex-row items-center justify-between gap-1" style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}>
+        <div className="mt-4 pt-3 flex items-center justify-center" style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}>
           <p className="text-xs" style={{ color: '#334155' }}>© 2025 MicTu · All rights reserved</p>
-          <p className="text-xs" style={{ color: '#334155' }}>Built with Next.js · Deployed on Vercel</p>
         </div>
 
       </div>

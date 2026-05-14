@@ -1,5 +1,6 @@
 'use client'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { useEffect, useState } from 'react'
 
 const NAV_ITEMS = [
@@ -55,6 +56,9 @@ function CloseIcon() {
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
+  const pathname = usePathname() || '/'
+  const inTutorial = pathname.startsWith('/google-sheets-tutorial')
+  const brandHref = inTutorial ? '/google-sheets-tutorial' : '/'
 
   useEffect(() => {
     const check = () => setScrolled(window.scrollY > 80)
@@ -85,9 +89,10 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto h-full px-6 flex items-center justify-between gap-6">
 
           {/* Brand */}
-          <Link href="/" className="flex items-center shrink-0 select-none" onClick={() => setMobileOpen(false)}>
-            <span className="font-semibold text-lg tracking-tight" style={{ color: textColor }}>
-              MicTu
+          <Link href={brandHref} className="flex items-center shrink-0 select-none" onClick={() => setMobileOpen(false)}>
+            <span className="text-lg tracking-tight" style={{ color: textColor }}>
+              <span className="font-black">MicTu</span>
+              {inTutorial && <span className="font-extralight">｜Google Sheets</span>}
             </span>
           </Link>
 
@@ -107,11 +112,11 @@ export default function Navbar() {
 
           {/* Desktop social icons */}
           <div className="hidden md:flex items-center gap-3.5 shrink-0">
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" title="LinkedIn"
+            <a href="https://www.linkedin.com/in/mic-tu-personal-profile/" target="_blank" rel="noopener noreferrer" title="LinkedIn"
               className="transition-opacity hover:opacity-60" style={{ color: textColor }}>
               <LinkedInIcon />
             </a>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" title="YouTube"
+            <a href="https://www.youtube.com/@mictu" target="_blank" rel="noopener noreferrer" title="YouTube"
               className="transition-opacity hover:opacity-60" style={{ color: textColor }}>
               <YouTubeIcon />
             </a>
@@ -153,11 +158,11 @@ export default function Navbar() {
               </Link>
             ))}
             <div className="flex items-center gap-5 pt-5">
-              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" title="LinkedIn"
+              <a href="https://www.linkedin.com/in/mic-tu-personal-profile/" target="_blank" rel="noopener noreferrer" title="LinkedIn"
                 className="transition-opacity hover:opacity-60" style={{ color: textColor }}>
                 <LinkedInIcon />
               </a>
-              <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" title="YouTube"
+              <a href="https://www.youtube.com/@mictu" target="_blank" rel="noopener noreferrer" title="YouTube"
                 className="transition-opacity hover:opacity-60" style={{ color: textColor }}>
                 <YouTubeIcon />
               </a>
