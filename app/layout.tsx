@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     description: "讀書心得、隨筆思考與技術筆記",
     images: ["/MicTu.jpg"],
   },
+  verification: {
+    google: "mTCBd1lKtAeRJb5EUVKqMjHAskwmJkFu9a_fCIFiQms",
+  },
 };
 
 export default function RootLayout({
